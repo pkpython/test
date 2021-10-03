@@ -23,5 +23,11 @@ int main()
         cin>>y;
         cout<<b[y-1]-1<<endl;
     }
+    for(int i=0;i<n;i++)
+    {
+        int y;
+        cin>>y;
+        cout<<b[y-i]-1<<endl;
+    }
     return 0;
 }
